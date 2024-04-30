@@ -5,6 +5,8 @@
              Title="Back past injections">
     <VerticalStackLayout>
         <HorizontalStackLayout HeightRequest="40">
+            <Button Text="Save" Pressed="Save_Pressed" x:Name="bottone_save"/>
+            <Button Text="Edit" Pressed="Edit_Pressed" x:Name="bottone_edit"/>
         </HorizontalStackLayout>
         <Image Source="busto_retro.png" Scale="1"        
                HeightRequest="600"
